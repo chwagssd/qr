@@ -10,7 +10,7 @@ Create a file input in your HTML page that has an id, say "xxx"
 
 Then tell the page on load to QRIfy your field! Make sure to include your callback function, 
 which will be called with a single argument (the FULL TEXT that was scanned): QRIfy('qrCode', onQrCode);//where qrCode is the id of your 
-        &lt;nput type="file" id="xxx">
+        &lt;input type="file" id="xxx">
 
 
 Basically, after you have a file field, then ondomready or on page load, call the following:
