@@ -1,3 +1,5 @@
+Note: the following script will take 5-10 seconds to decode a scanned QR code on an iPhone 4s.
+
 move these files into your project
 
 
