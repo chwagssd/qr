@@ -8,7 +8,8 @@ Create a file input in your HTML page that has an id, say "xxx"
         &lt;input type="file" id="xxx">
 
 
-Then tell the page on load to QRIfy your field! Make sure to include your callback function, which will be called with a single argument (the FULL TEXT that was scanned): QRIfy('qrCode', onQrCode);//where qrCode is the id of your 
+Then tell the page on load to QRIfy your field! Make sure to include your callback function, 
+which will be called with a single argument (the FULL TEXT that was scanned): QRIfy('qrCode', onQrCode);//where qrCode is the id of your 
         &lt;nput type="file" id="xxx">
 
 
@@ -20,7 +21,7 @@ where callcack is:
 
 &lt;body>
 &lt;form>
-    <input type="file" id="qrCode" />
+    &lt;input type="file" id="qrCode" />
 &lt;/form>
 &lt;/body>
 
